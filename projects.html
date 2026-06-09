@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Projects</title>
+    <link rel="stylesheet" href="projects.css">
+</head>
+<body>
+
+<section class="projects-section">
+    <h1>My Projects</h1>
+
+    <div class="projects-container">
+
+        <div class="project-card">
+            <h2>Smart Water Conservation System</h2>
+            <p>
+                An IoT-based system that monitors and optimizes water usage using
+                sensors, automation, and real-time data analysis. It helps detect
+                leaks, manage irrigation, and reduce water wastage.
+            </p>
+
+            <div class="tech">
+                <span>IoT</span>
+                <span>Microcontroller</span>
+                <span>Web App</span>
+                <span>Mobile App</span>
+            </div>
+
+            <button onclick="showDetails('water')">
+                View Details
+            </button>
+        </div>
+
+        <div class="project-card">
+            <h2>Theft Alert Notification System</h2>
+            <p>
+                A security monitoring system that detects unauthorized movement
+                using sensors and instantly sends alerts through IoT platforms
+                and SMS notifications.
+            </p>
+
+            <div class="tech">
+                <span>IoT</span>
+                <span>Cloud Computing</span>
+                <span>Sensors</span>
+            </div>
+
+            <button onclick="showDetails('theft')">
+                View Details
+            </button>
+        </div>
+
+    </div>
+
+    <div id="project-info"></div>
+
+    <a href="index.html" class="btn">← Back to Home</a>
+
+</section>
+
+<script src="projects.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background-color: rgb(7, 7, 76);
+    color: white;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: poppins, sans-serif;
+}
+.profile-container h1 {
+    font-size: 35px;
+    justify-content: center;
+}
+.profile-container p {
+    font-size: 20px;
+    color: #ccc;
+    margin-top: 5px;
+    font-align: justify;
+    line-height: 1.5;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+nav ul li {
+    margin-left: 25px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+padding: 20px;
+background-color: rgb(7, 7, 76);
+}
+.about{
+    background: white;
+margin: 30px;
+border-radius: 15px;
+
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.about-container{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    padding: 30px;
+}
+.about img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.about-content {
+    max-width: 700px;
+}
+.about-content h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #002b6b;
+}
+.about-content p {
+    font-size: 18px;
+    line-height: 1.8;
+}
+.about-info {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+.about-text {
+    flex: 1;
+}
+.info-box{
+    flex: 1;
+    background: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.skills-goals{
+    display:flex;
+    gap:30px;
+    margin:30px;
+}
+
+.skills-card,
+.goals-card{
+    flex:1;
+    background:white;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.skills-card h2,
+.goals-card h2{
+    color:#002b6b;
+    margin-bottom:25px;
+}
+
+.skill{
+    display:flex;
+    justify-content:space-between;
+    margin-top:15px;
+    margin-bottom:8px;
+}
+
+.progress{
+    width:100%;
+    height:10px;
+    background:#e5e7eb;
+    border-radius:20px;
+    overflow:hidden;
+    margin-bottom:20px;
+}
+
+.html{
+    width:80%;
+    height:100%;
+    background:#005eff;
+}
+
+.css{
+    width:70%;
+    height:100%;
+    background:#005eff;
+}
+
+.javascript{
+    width:60%;
+    height:100%;
+    background:#005eff;
+}
+
+.git-github{
+    width:65%;
+    height:100%;
+    background:#005eff;
+}
+
+.goals-card ol{
+    padding-left:25px;
+}
+
+.goals-card li{
+    margin-bottom:20px;
+    padding-bottom:10px;
+    border-bottom:1px solid #eee;
+    font-size:17px;
+}
+/* Hobbies Section */
+
+.hobbies{
+    background:white;
+    margin:30px;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.hobbies h2{
+    color:#002b6b;
+    margin-bottom:30px;
+}
+
+.hobbies-container{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.hobby{
+    text-align:center;
+    flex:1;
+}
+
+.hobby:not(:last-child){
+    border-right:1px solid #e5e7eb;
+}
+
+.icon{
+    font-size:50px;
+    margin-bottom:10px;
+}
+
+.hobby p{
+    font-size:18px;
+    color:#333;
+}
+/* Contact Section */
+
+.contact{
+    background:white;
+    margin:30px;
+    padding:30px;
+
+    border-radius:15px;
+
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.contact-info{
+    flex:1;
+}
+
+.contact-info h2{
+    color:#002b6b;
+    margin-bottom:25px;
+}
+
+.contact-item{
+    display:flex;
+    align-items:center;
+
+    gap:15px;
+
+    margin-bottom:20px;
+
+    font-size:18px;
+}
+
+.contact-item span{
+    font-size:24px;
+}
+
+.contact-image{
+    flex:1;
+    text-align:right;
+}
+
+.contact-image img{
+    width:300px;
+    max-width:100%;
+}
+footer{
+    background:#002b6b;
+    color:white;
+
+    text-align:center;
+
+    padding:25px;
+}
+
+.social-icons{
+    margin-top:15px;
+}
+
+.social-icons a{
+    color:white;
+    text-decoration:none;
+
+    font-size:25px;
+
+    margin:0 15px;
+}
+.contact-item a{
+    color:white;
+    text-decoration:none;
+    font-weight:500;
+}
+
+.contact-item a:hover{
+    text-decoration:underline;
+}

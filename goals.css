@@ -1,0 +1,88 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Times New Roman, serif;
+    background:#f4f4f4;
+}
+header{
+    background:#002b6b;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
+.goals-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:25px;
+    padding:30px;
+}
+
+.goal-card{
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 0 10px rgba(0,0,0,0.1);
+    transition:0.3s;
+}
+
+.goal-card:hover{
+    transform:translateY(-5px);
+}
+
+.goal-card h2{
+    color:#002b6b;
+    margin-bottom:15px;
+}
+
+.goal-card ul{
+    padding-left:20px;
+}
+
+.goal-card li{
+    margin-bottom:10px;
+}
+
+.btn-container{
+    text-align:center;
+    padding:20px;
+    display:flex;
+    justify-content:center;
+}
+
+button{
+    padding:12px 25px;
+    border:none;
+    background:#002b6b;
+    color:white;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:16px;
+}
+/* Button */
+.btn{
+    display:block;
+    width:180px;
+    margin:40px auto;
+    background-color:#002b6b;
+    color:white;
+    text-decoration:none;
+    padding:10px 20px;
+    border-radius:5px;
+    text-align:center;
+}
+
+.btn:hover {
+    background-color: #0044aa;
+}
+
+#quote{
+    margin-top:20px;
+    font-size:18px;
+    color:#002b6b;
+    font-weight:bold;
+}

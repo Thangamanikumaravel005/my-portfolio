@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="contact.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>Contact Me</h1>
+
+    <!-- My Contact Details -->
+    <div class="contact-details">
+        <h2>My Contact Information</h2>
+
+        <table>
+            <tr>
+                <th>Name</th>
+                <td>THANGAMANI KUMARAVEL</td>
+            </tr>
+
+            <tr>
+                <th>Email</th>
+                <td>
+                    <a href="mailto:thangamanikumaravel005@gmail.com">
+                        thangamanikumaravel005@gmail.com
+                    </a>
+                </td>
+            </tr>
+
+            <tr>
+                <th>Mobile</th>
+                <td>+91 70923 89886</td>
+            </tr>
+
+            <tr>
+                <th>Location</th>
+                <td>Dindigul, Tamil Nadu, India</td>
+            </tr>
+
+            <tr>
+                <th>LinkedIn</th>
+                <td>
+                    <a href="https://www.linkedin.com/in/thangamani-kumaravel-48075227a?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank">
+    View My LinkedIn Profile
+</a>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Visitor Contact Form -->
+    <div class="contact-form">
+        <h2>Get In Touch</h2>
+
+        <form id="contactForm">
+
+            <label>Full Name</label>
+            <input type="text" id="name" required>
+
+            <label>Email Address</label>
+            <input type="email" id="email" required>
+
+            <label>Mobile Number</label>
+            <input type="tel" id="mobile" required>
+
+            <label>Message</label>
+            <textarea id="message" rows="5" required></textarea>
+
+            <button type="submit">Send Message</button>
+
+        </form>
+
+        <p id="successMessage"></p>
+    </div>
+
+    <a href="index.html" class="btn">← Back to Home</a>
+
+</div>
+
+<script src="contact.js"></script>
+
+</body>
+</html>

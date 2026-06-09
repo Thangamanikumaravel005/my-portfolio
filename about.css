@@ -1,0 +1,85 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Body Styling */
+body {
+    font-family: "Times New Roman", Times, serif;
+    background-color: #f4f4f4;
+}
+
+/* Header Section */
+header {
+    background-color: #002b6b;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+header h1 {
+    font-weight: bold;
+}
+
+header p {
+    margin-top: 5px;
+}
+
+/* About Section */
+.about-container {
+    width: 80%;
+    margin: 40px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.about-container img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+}
+
+/* Content Section */
+.content h2 {
+    color: #002b6b;
+    margin-bottom: 15px;
+}
+
+.content h3 {
+    color: #002b6b;
+    margin-top: 20px;
+}
+
+.content p {
+    text-align: justify;
+    line-height: 1.8;
+}
+
+.content ul {
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.content li {
+    line-height: 1.8;
+}
+
+/* Button */
+.btn {
+    background-color: #002b6b;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: #0044aa;
+}
