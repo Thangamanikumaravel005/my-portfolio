@@ -1,8 +1,5 @@
-// Typing Effect
-
 const text = "🎯 My Goals";
 let i = 0;
-
 function typeWriter() {
 
     if(i < text.length){
@@ -14,12 +11,7 @@ function typeWriter() {
         setTimeout(typeWriter,100);
     }
 }
-
 typeWriter();
-
-
-// Motivation Quotes
-
 function showQuote(){
 
     const quotes = [

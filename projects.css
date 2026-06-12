@@ -5,7 +5,7 @@
 }
 
 body{
-    background:#f4f4f4;
+    background:#f3cfe9;
     font-family:Times New Roman, serif;
 }
 
@@ -23,6 +23,7 @@ body{
     font-family:"Times New Roman", serif;
     border-radius:15px;
     margin-bottom:30px;
+    font-size: 20px;
 }
 
 .projects-container{
@@ -33,12 +34,13 @@ body{
 }
 
 .project-card{
-    background:white;
+    background:rgb(224, 233, 220);
     width:450px;
     padding:25px;
     border-radius:15px;
     box-shadow:0 5px 15px rgba(0,0,0,0.1);
     transition:0.3s;
+    font-size: 20px;
 }
 
 .project-card:hover{
